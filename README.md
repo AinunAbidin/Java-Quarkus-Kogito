@@ -74,7 +74,7 @@ Proyek ini berisi contoh “simple checkout” berbasis Kogito BPMN:
 ```
 
 ## Catatan diagram/visual
-- Ekstensi process-SVG untuk Kogito 10.x belum tersedia di Maven Central; gunakan file BPMN langsung dengan viewer/editor BPMN (mis. extension BPMN/Kogito di VS Code) untuk melihat diagram.
+- Ekstensi process-SVG untuk Kogito 10.x tidak compatible dengan Maven Central karena versi kogito yang sudah ; gunakan file BPMN langsung dengan viewer/editor BPMN (mis. extension BPMN/Kogito di VS Code) untuk melihat diagram atau cek `simple-checkout.svg`.
 
 ## Build
 - Unit test: `./mvnw test`
